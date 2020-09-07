@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://jokerczs.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2020 22:12:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://jokerczs.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客搭建步骤</title>
+      <link>https://jokerczs.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/</link>
+      <pubDate>Mon, 07 Sep 2020 22:12:13 +0800</pubDate>
+      
+      <guid>https://jokerczs.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/</guid>
+      <description>hugo new site myblog git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c  hugo server -t m10c --buildDrafts hugo new post/blog.md hugo --theme=m10c --baseUrl=&amp;#34;https://jokerczs.github.io/&amp;#34; --buildDrafts cd public git init git add . git commit -m &amp;#34;我的 hugo 博客第一次提交&amp;#34; git remote add origin https://github.com/Jokerczs/jokerczs.github.io.git  git pull origin master --allow-unrelated-histories(我第二次换主题的时候用了这个) git push -u origin master	</description>
+    </item>
+    
+  </channel>
+</rss>

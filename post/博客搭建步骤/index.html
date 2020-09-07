@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>博客搭建步骤 // My New Hugo Site</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.73.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://jokerczs.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="博客搭建步骤"/>
+<meta name="twitter:description" content="hugo new site myblog git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c  hugo server -t m10c --buildDrafts hugo new post/blog.md hugo --theme=m10c --baseUrl=&#34;https://jokerczs.github.io/&#34; --buildDrafts cd public git init git add . git commit -m &#34;我的 hugo 博客第一次提交&#34; git remote add origin https://github.com/Jokerczs/jokerczs.github.io.git  git pull origin master --allow-unrelated-histories(我第二次换主题的时候用了这个) git push -u origin master	"/>
+
+    <meta property="og:title" content="博客搭建步骤" />
+<meta property="og:description" content="hugo new site myblog git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c  hugo server -t m10c --buildDrafts hugo new post/blog.md hugo --theme=m10c --baseUrl=&#34;https://jokerczs.github.io/&#34; --buildDrafts cd public git init git add . git commit -m &#34;我的 hugo 博客第一次提交&#34; git remote add origin https://github.com/Jokerczs/jokerczs.github.io.git  git pull origin master --allow-unrelated-histories(我第二次换主题的时候用了这个) git push -u origin master	" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jokerczs.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/" />
+<meta property="article:published_time" content="2020-09-07T22:12:13+08:00" />
+<meta property="article:modified_time" content="2020-09-07T22:12:13+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jokerczs.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>My New Hugo Site</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">博客搭建步骤</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Sep 7, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo <span style="color:#66d9ef">new</span> site myblog
+
+git clone https<span style="color:#f92672">:</span><span style="color:#75715e">//github.com/vaga/hugo-theme-m10c.git themes/m10c
+</span><span style="color:#75715e"></span>
+hugo server <span style="color:#f92672">-</span>t m10c <span style="color:#f92672">--</span>buildDrafts
+
+hugo <span style="color:#66d9ef">new</span> post<span style="color:#f92672">/</span>blog<span style="color:#f92672">.</span><span style="color:#a6e22e">md</span>
+
+hugo <span style="color:#f92672">--</span>theme<span style="color:#f92672">=</span>m10c <span style="color:#f92672">--</span>baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://jokerczs.github.io/&#34;</span> <span style="color:#f92672">--</span>buildDrafts
+
+cd <span style="color:#66d9ef">public</span>
+
+git init
+
+git add <span style="color:#f92672">.</span>
+
+git commit <span style="color:#f92672">-</span>m <span style="color:#e6db74">&#34;我的 hugo 博客第一次提交&#34;</span>
+
+git remote add origin https<span style="color:#f92672">:</span><span style="color:#75715e">//github.com/Jokerczs/jokerczs.github.io.git
+</span><span style="color:#75715e"></span>
+git pull origin master <span style="color:#f92672">--</span>allow<span style="color:#f92672">-</span>unrelated<span style="color:#f92672">-</span>histories<span style="color:#f92672">(</span>我第二次换主题的时候用了这个<span style="color:#f92672">)</span>
+
+git push <span style="color:#f92672">-</span>u origin master		
+</code></pre></div>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
